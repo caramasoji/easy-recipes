@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Curly Hairstyle Trends</title>  	
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            flex-direction: column;
+            margin: 0;
+        }
+        #wrapper {
+            background-color: #000;
+            width: 380px;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+        .content-block {
+            background-color: #000;
+            padding: 10px;
+            border-radius: 1px;
+            margin: 10px 0;
+            text-align: left;
+        }
+        #images {
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 5px 0;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        @media (max-width: 320px) {
+            #wrapper {
+                width: 95%;
+                padding: 5px;
+            }
+            .content-block {
+                padding: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+	<center><script type="text/javascript">
+	atOptions = {
+		'key' : 'ce2383f713a0c77b0878c1a1d7c1df20',
+		'format' : 'iframe',
+		'height' : 250,
+		'width' : 300,
+		'params' : {}
+	};
+	</script>
+	<script type="text/javascript" src="//www.highperformanceformat.com/ce2383f713a0c77b0878c1a1d7c1df20/invoke.js"></script></center>
+        <div class="content-block" id="content1"></div>
+	<center><script type="text/javascript">
+	atOptions = {
+		'key' : '8593e13c39e9ac238192fc2cfff23e11',
+		'format' : 'iframe',
+		'height' : 250,
+		'width' : 300,
+		'params' : {}
+	};
+	</script>
+	<script type="text/javascript" src="//roastwearwritten.com/8593e13c39e9ac238192fc2cfff23e11/invoke.js"></script></center>
+        <div id="images1"></div>
+	<center><script type="text/javascript">
+	atOptions = {
+		'key' : '68b7dd1313f0211b932e67958c60070b',
+		'format' : 'iframe',
+		'height' : 250,
+		'width' : 300,
+		'params' : {}
+	};
+	</script>
+	<script type="text/javascript" src="//roastwearwritten.com/68b7dd1313f0211b932e67958c60070b/invoke.js"></script></center>
+        <div id="images2"></div>  
+	<center><script async="async" data-cfasync="false" src="//roastwearwritten.com/ad9de90c489491650824977b53f25eae/invoke.js"></script>
+	<div id="container-ad9de90c489491650824977b53f25eae"></div></center>
+    </div>
+
+    <script>
+        const textFiles = ['Artikel-1.txt', 'Artikel-2.txt', 'Artikel-3.txt', 'Artikel-4.txt', 'Artikel-5.txt', 'Artikel-6.txt', 'Artikel-7.txt', 'Artikel-8.txt', 'Artikel-9.txt', 'Artikel-10.txt', 'Artikel-11.txt', 'Artikel-12.txt', 'Artikel-13.txt', 'Artikel-14.txt', 'Artikel-15.txt'];
+        const imageFiles = ['Gambar-1.png', 'Gambar-2.png', 'Gambar-3.png', 'Gambar-4.png', 'Gambar-5.png', 'Gambar-6.png', 'Gambar-7.png', 'Gambar-8.png', 'Gambar-9.png', 'Gambar-10.png', 'Gambar-11.png', 'Gambar-12.png', 'Gambar-13.png', 'Gambar-14.png', 'Gambar-15.png', 'Gambar-16.png', 'Gambar-17.png', 'Gambar-18.png', 'Gambar-19.png', 'Gambar-20.png', 'Gambar-21.png', 'Gambar-22.png', 'Gambar-23.png', 'Gambar-24.png', 'Gambar-25.png', 'Gambar-26.png', 'Gambar-27.png', 'Gambar-28.png', 'Gambar-29.png', 'Gambar-30.png', 'Gambar-31.png', 'Gambar-32.png', 'Gambar-33.png', 'Gambar-34.png', 'Gambar-35.png', 'Gambar-36.png', 'Gambar-37.png', 'Gambar-38.png', 'Gambar-39.png', 'Gambar-40.png', 'Gambar-41.png', 'Gambar-42.png', 'Gambar-43.png', 'Gambar-44.png', 'Gambar-45.png', 'Gambar-46.png', 'Gambar-47.png', 'Gambar-48.png', 'Gambar-49.png', 'Gambar-50.png'];
+
+        function getRandomFiles(files, count) {
+            let shuffled = files.sort(() => 0.5 - Math.random());
+            return shuffled.slice(0, count);
+        }
+
+        const randomTextFiles = getRandomFiles(textFiles, 1);
+        randomTextFiles.forEach((file, index) => {
+            fetch(file)
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById(`content${index + 1}`).innerHTML = `<p>${data}</p>`;
+                })
+                .catch(error => {
+                    console.error('Error fetching text file:', error);
+                    document.getElementById(`content${index + 1}`).innerHTML = '<p>Artikel tidak ditemukan</p>';
+                });
+        });
+
+        const randomImages1 = getRandomFiles(imageFiles, 5);
+        randomImages1.forEach(img => {
+            let imageElement = document.createElement('img');
+            imageElement.src = img;
+            imageElement.alt = 'Gambar Acak';
+            document.getElementById('images1').appendChild(imageElement);
+        });
+
+        const randomImages2 = getRandomFiles(imageFiles.filter(img => !randomImages1.includes(img)), 5);
+        randomImages2.forEach(img => {
+            let imageElement = document.createElement('img');
+            imageElement.src = img;
+            imageElement.alt = 'Gambar Acak';
+            document.getElementById('images2').appendChild(imageElement);
+        });
+    </script>
+</body>
+ <!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4919978,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4919978&101" alt="free web page hit counter" border="0"></a></noscript>
+<!-- Histats.com  END  -->	
+</html>

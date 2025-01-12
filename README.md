@@ -1,2 +1,2 @@
-# easy-recipes
-Get more recipes ideas
+# Curly-Hairstyle
+Best Curly Hairstyle Trends
